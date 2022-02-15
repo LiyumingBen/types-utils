@@ -1,0 +1,25 @@
+{
+  "name": "types-utils",
+  "version": "0.0.2",
+  "author": "Ben",
+  "description": "收集一些常用工具",
+  "keywords": [
+    "utils"
+  ],
+  "main": "index.js",
+  "unpkg": "dist/types-utils.js",
+  "jsdelivr": "dist/types-utils.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiyumingBen/types-utils"
+  },
+  "homepage": "https://github.com/LiyumingBen/types-utils",
+  "scripts": {
+    "c": "rollup -c",
+    "cw": "rollup -cw"
+  },
+  "devDependencies": {
+    "rollup": "^2.63.0"
+  }
+}
